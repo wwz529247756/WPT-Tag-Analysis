@@ -1,12 +1,13 @@
+# table 标签测试用例分析
+
 | WPT测试文件路径（相对WPT工程目录） | 对应样式标签被测试内容描述 |
 | ----------- | ----------- |
-| dom\events\Event-dispatch-bubble-canceled.html | Setting cancelBubble=true prior to dispatchEvent() |
-| dom\events\Event-dispatch-bubbles-false.html | Event.bubbles attribute is set to false |
-| dom\events\Event-dispatch-bubbles-true.html | Event.bubbles attribute is set to false |
-| dom\events\Event-dispatch-handlers-changed.html | Dispatch additional events inside an event listener |
-| dom\events\Event-dispatch-omitted-capture.html | EventTarget.addEventListener: capture argument omitted |
-| dom\events\Event-dispatch-propagation-stopped.html | Calling stopPropagation() prior to dispatchEvent() |
-| dom\events\Event-dispatch-reenter.html | Dispatch additional events inside an event listener |
-| dom\events\Event-dispatch-target-moved.html | Determined event propagation path - target moved |
-| dom\events\Event-dispatch-target-removed.html | Determined event propagation path - target removed |
-| dom\events\EventTarget-dispatchEvent-returnvalue.html | EventTarget.dispatchEvent: return value |
+| dom/events/Event-constructors.any.js | table元素事件测试 |
+| dom/events/Event-dispatch-bubbles-true.html | table元素事件测试 |
+| dom/events/Event-isTrusted.any.js | table元素事件测试 |
+| dom/events/Event-subclasses-constructors.html | table元素事件测试 |
+| dom/events/EventTarget-constructible.any.js | table元素事件测试 |
+| dom/events/event-global-extra.window.js | table元素事件测试 |
+| dom/events/no-focus-events-at-clicking-editable-content-in-link.html | table元素事件测试 |
+| dom/events/preventDefault-during-activation-behavior.html | table元素事件测试 |
+| dom/events/webkit-transition-end-event.html | table元素事件测试 |
